@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>186906378952-jh0jhsnbl7db9q8ne1ugs8bv6ps1s5h3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.186906378952-jh0jhsnbl7db9q8ne1ugs8bv6ps1s5h3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAHvnFol_jGXQFd6XkU8mOYU0p8eBFsDic</string>
+	<key>GCM_SENDER_ID</key>
+	<string>186906378952</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.admin.Delight-Travel</string>
+	<key>PROJECT_ID</key>
+	<string>delight-travel-bcab4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>delight-travel-bcab4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:186906378952:ios:e308e11328d5c729831bfd</string>
+</dict>
+</plist>

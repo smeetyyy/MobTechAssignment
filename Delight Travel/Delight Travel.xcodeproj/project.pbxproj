@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8E98E428BA5B4F006B75D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E98E328BA5B4F006B75D2 /* AppDelegate.swift */; };
+		6B8E98E628BA5B4F006B75D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E98E528BA5B4F006B75D2 /* SceneDelegate.swift */; };
+		6B8E98E828BA5B4F006B75D2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E98E728BA5B4F006B75D2 /* LoginVC.swift */; };
+		6B8E98EB28BA5B4F006B75D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E98E928BA5B4F006B75D2 /* Main.storyboard */; };
+		6B8E98EE28BA5B4F006B75D2 /* Delight_Travel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E98EC28BA5B4F006B75D2 /* Delight_Travel.xcdatamodeld */; };
+		6B8E98F028BA5B51006B75D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E98EF28BA5B51006B75D2 /* Assets.xcassets */; };
+		6B8E98F328BA5B51006B75D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8E98F128BA5B51006B75D2 /* LaunchScreen.storyboard */; };
+		6BB1EA9128BD57B300BF9925 /* AppUntility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1EA9028BD57B300BF9925 /* AppUntility.swift */; };
+		6BB1EA9328BD58D700BF9925 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1EA9228BD58D700BF9925 /* Extensions.swift */; };
+		6BB1EA9828BD5CEA00BF9925 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB1EA9728BD5CEA00BF9925 /* SignUpVC.swift */; };
+		6BDF347228BD68E1005CA246 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347128BD68E1005CA246 /* HomeVC.swift */; };
+		6BDF347428BDCDD1005CA246 /* DestinationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347328BDCDD1005CA246 /* DestinationListVC.swift */; };
+		6BDF347828BDD06C005CA246 /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347628BDD06C005CA246 /* DestinationCell.swift */; };
+		6BDF347928BDD06C005CA246 /* DestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF347728BDD06C005CA246 /* DestinationCell.xib */; };
+		6BDF347B28BDD49A005CA246 /* MyDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347A28BDD49A005CA246 /* MyDestinationVC.swift */; };
+		6BDF347D28BDD64F005CA246 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347C28BDD64F005CA246 /* MyProfileVC.swift */; };
+		6BDF347F28BE7683005CA246 /* AddDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF347E28BE7683005CA246 /* AddDestinationVC.swift */; };
+		6BDF348128BE8528005CA246 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF348028BE8528005CA246 /* GoogleService-Info.plist */; };
+		6BDF348428BE9180005CA246 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF348328BE9180005CA246 /* AppUser.swift */; };
+		6BDF348628BE91CB005CA246 /* StoreSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF348528BE91CB005CA246 /* StoreSession.swift */; };
+		6BDF348828BEAB26005CA246 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF348728BEAB26005CA246 /* Destination.swift */; };
+		6BDF348B28BEABBD005CA246 /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF348928BEABBC005CA246 /* NoResultView.swift */; };
+		6BDF348C28BEABBD005CA246 /* NoResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BDF348A28BEABBD005CA246 /* NoResultView.xib */; };
+		7755BE33E7F191A576DA923A /* Pods_Delight_Travel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8784F0341D830BC61EC9ECC /* Pods_Delight_Travel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C7A67437DDF108E6BB5D5F /* Pods-Delight Travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight Travel.debug.xcconfig"; path = "Target Support Files/Pods-Delight Travel/Pods-Delight Travel.debug.xcconfig"; sourceTree = "<group>"; };
+		6B8E98E028BA5B4F006B75D2 /* Delight Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delight Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8E98E328BA5B4F006B75D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B8E98E528BA5B4F006B75D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B8E98E728BA5B4F006B75D2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6B8E98EA28BA5B4F006B75D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B8E98ED28BA5B4F006B75D2 /* Delight_Travel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Delight_Travel.xcdatamodel; sourceTree = "<group>"; };
+		6B8E98EF28BA5B51006B75D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8E98F228BA5B51006B75D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B8E98F428BA5B51006B75D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB1EA9028BD57B300BF9925 /* AppUntility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUntility.swift; sourceTree = "<group>"; };
+		6BB1EA9228BD58D700BF9925 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6BB1EA9728BD5CEA00BF9925 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		6BDF347128BD68E1005CA246 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6BDF347328BDCDD1005CA246 /* DestinationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListVC.swift; sourceTree = "<group>"; };
+		6BDF347628BDD06C005CA246 /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
+		6BDF347728BDD06C005CA246 /* DestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationCell.xib; sourceTree = "<group>"; };
+		6BDF347A28BDD49A005CA246 /* MyDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDestinationVC.swift; sourceTree = "<group>"; };
+		6BDF347C28BDD64F005CA246 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		6BDF347E28BE7683005CA246 /* AddDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDestinationVC.swift; sourceTree = "<group>"; };
+		6BDF348028BE8528005CA246 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BDF348328BE9180005CA246 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		6BDF348528BE91CB005CA246 /* StoreSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreSession.swift; sourceTree = "<group>"; };
+		6BDF348728BEAB26005CA246 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		6BDF348928BEABBC005CA246 /* NoResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
+		6BDF348A28BEABBD005CA246 /* NoResultView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoResultView.xib; sourceTree = "<group>"; };
+		B8784F0341D830BC61EC9ECC /* Pods_Delight_Travel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delight_Travel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5CFB349B1E1C4E8F26B53D1 /* Pods-Delight Travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delight Travel.release.xcconfig"; path = "Target Support Files/Pods-Delight Travel/Pods-Delight Travel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8E98DD28BA5B4F006B75D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7755BE33E7F191A576DA923A /* Pods_Delight_Travel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DCB1192B7BBB5FF733BFDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8784F0341D830BC61EC9ECC /* Pods_Delight_Travel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AD53F3F10C6681AC4452188 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C7A67437DDF108E6BB5D5F /* Pods-Delight Travel.debug.xcconfig */,
+				E5CFB349B1E1C4E8F26B53D1 /* Pods-Delight Travel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B8E98D728BA5B4F006B75D2 = {
+			isa = PBXGroup;
+			children = (
+				6B8E98E228BA5B4F006B75D2 /* Delight Travel */,
+				6B8E98E128BA5B4F006B75D2 /* Products */,
+				1AD53F3F10C6681AC4452188 /* Pods */,
+				0DCB1192B7BBB5FF733BFDC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8E98E128BA5B4F006B75D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E98E028BA5B4F006B75D2 /* Delight Travel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8E98E228BA5B4F006B75D2 /* Delight Travel */ = {
+			isa = PBXGroup;
+			children = (
+				6BDF348228BE9176005CA246 /* Model */,
+				6BB1EA8F28BD57A400BF9925 /* AppBase */,
+				6BB1EA9428BD5CCC00BF9925 /* ViewControllers */,
+				6BDF347528BDD04B005CA246 /* Cells */,
+				6B8E98E328BA5B4F006B75D2 /* AppDelegate.swift */,
+				6B8E98E528BA5B4F006B75D2 /* SceneDelegate.swift */,
+				6B8E98E928BA5B4F006B75D2 /* Main.storyboard */,
+				6B8E98EF28BA5B51006B75D2 /* Assets.xcassets */,
+				6B8E98F128BA5B51006B75D2 /* LaunchScreen.storyboard */,
+				6B8E98F428BA5B51006B75D2 /* Info.plist */,
+				6BDF348028BE8528005CA246 /* GoogleService-Info.plist */,
+				6B8E98EC28BA5B4F006B75D2 /* Delight_Travel.xcdatamodeld */,
+			);
+			path = "Delight Travel";
+			sourceTree = "<group>";
+		};
+		6BB1EA8F28BD57A400BF9925 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				6BB1EA9028BD57B300BF9925 /* AppUntility.swift */,
+				6BB1EA9228BD58D700BF9925 /* Extensions.swift */,
+				6BDF348528BE91CB005CA246 /* StoreSession.swift */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		6BB1EA9428BD5CCC00BF9925 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B8E98E728BA5B4F006B75D2 /* LoginVC.swift */,
+				6BB1EA9728BD5CEA00BF9925 /* SignUpVC.swift */,
+				6BDF347128BD68E1005CA246 /* HomeVC.swift */,
+				6BDF347328BDCDD1005CA246 /* DestinationListVC.swift */,
+				6BDF347A28BDD49A005CA246 /* MyDestinationVC.swift */,
+				6BDF347C28BDD64F005CA246 /* MyProfileVC.swift */,
+				6BDF347E28BE7683005CA246 /* AddDestinationVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BDF347528BDD04B005CA246 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6BDF348928BEABBC005CA246 /* NoResultView.swift */,
+				6BDF348A28BEABBD005CA246 /* NoResultView.xib */,
+				6BDF347628BDD06C005CA246 /* DestinationCell.swift */,
+				6BDF347728BDD06C005CA246 /* DestinationCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6BDF348228BE9176005CA246 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BDF348328BE9180005CA246 /* AppUser.swift */,
+				6BDF348728BEAB26005CA246 /* Destination.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8E98DF28BA5B4F006B75D2 /* Delight Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8E98F728BA5B51006B75D2 /* Build configuration list for PBXNativeTarget "Delight Travel" */;
+			buildPhases = (
+				CD1C47CB00468AEAB244B935 /* [CP] Check Pods Manifest.lock */,
+				6B8E98DC28BA5B4F006B75D2 /* Sources */,
+				6B8E98DD28BA5B4F006B75D2 /* Frameworks */,
+				6B8E98DE28BA5B4F006B75D2 /* Resources */,
+				AB546FA7B3B6DE566504C12F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delight Travel";
+			productName = "Delight Travel";
+			productReference = 6B8E98E028BA5B4F006B75D2 /* Delight Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8E98D828BA5B4F006B75D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6B8E98DF28BA5B4F006B75D2 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 6B8E98DB28BA5B4F006B75D2 /* Build configuration list for PBXProject "Delight Travel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8E98D728BA5B4F006B75D2;
+			productRefGroup = 6B8E98E128BA5B4F006B75D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8E98DF28BA5B4F006B75D2 /* Delight Travel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8E98DE28BA5B4F006B75D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8E98F328BA5B51006B75D2 /* LaunchScreen.storyboard in Resources */,
+				6B8E98F028BA5B51006B75D2 /* Assets.xcassets in Resources */,
+				6BDF348128BE8528005CA246 /* GoogleService-Info.plist in Resources */,
+				6BDF347928BDD06C005CA246 /* DestinationCell.xib in Resources */,
+				6BDF348C28BEABBD005CA246 /* NoResultView.xib in Resources */,
+				6B8E98EB28BA5B4F006B75D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB546FA7B3B6DE566504C12F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight Travel/Pods-Delight Travel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delight Travel/Pods-Delight Travel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delight Travel/Pods-Delight Travel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1C47CB00468AEAB244B935 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delight Travel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8E98DC28BA5B4F006B75D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDF348428BE9180005CA246 /* AppUser.swift in Sources */,
+				6BDF347D28BDD64F005CA246 /* MyProfileVC.swift in Sources */,
+				6BDF347B28BDD49A005CA246 /* MyDestinationVC.swift in Sources */,
+				6BDF347F28BE7683005CA246 /* AddDestinationVC.swift in Sources */,
+				6BB1EA9828BD5CEA00BF9925 /* SignUpVC.swift in Sources */,
+				6BDF348628BE91CB005CA246 /* StoreSession.swift in Sources */,
+				6BDF347228BD68E1005CA246 /* HomeVC.swift in Sources */,
+				6B8E98E828BA5B4F006B75D2 /* LoginVC.swift in Sources */,
+				6BB1EA9328BD58D700BF9925 /* Extensions.swift in Sources */,
+				6BB1EA9128BD57B300BF9925 /* AppUntility.swift in Sources */,
+				6B8E98EE28BA5B4F006B75D2 /* Delight_Travel.xcdatamodeld in Sources */,
+				6BDF347428BDCDD1005CA246 /* DestinationListVC.swift in Sources */,
+				6B8E98E428BA5B4F006B75D2 /* AppDelegate.swift in Sources */,
+				6BDF348B28BEABBD005CA246 /* NoResultView.swift in Sources */,
+				6BDF347828BDD06C005CA246 /* DestinationCell.swift in Sources */,
+				6BDF348828BEAB26005CA246 /* Destination.swift in Sources */,
+				6B8E98E628BA5B4F006B75D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B8E98E928BA5B4F006B75D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8E98EA28BA5B4F006B75D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B8E98F128BA5B51006B75D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B8E98F228BA5B51006B75D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B8E98F528BA5B51006B75D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8E98F628BA5B51006B75D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8E98F828BA5B51006B75D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C7A67437DDF108E6BB5D5F /* Pods-Delight Travel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delight Travel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admin.Delight-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B8E98F928BA5B51006B75D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CFB349B1E1C4E8F26B53D1 /* Pods-Delight Travel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Delight Travel/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.admin.Delight-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8E98DB28BA5B4F006B75D2 /* Build configuration list for PBXProject "Delight Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8E98F528BA5B51006B75D2 /* Debug */,
+				6B8E98F628BA5B51006B75D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8E98F728BA5B51006B75D2 /* Build configuration list for PBXNativeTarget "Delight Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8E98F828BA5B51006B75D2 /* Debug */,
+				6B8E98F928BA5B51006B75D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B8E98EC28BA5B4F006B75D2 /* Delight_Travel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B8E98ED28BA5B4F006B75D2 /* Delight_Travel.xcdatamodel */,
+			);
+			currentVersion = 6B8E98ED28BA5B4F006B75D2 /* Delight_Travel.xcdatamodel */;
+			path = Delight_Travel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B8E98D828BA5B4F006B75D2 /* Project object */;
+}
